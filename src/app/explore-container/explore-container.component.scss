@@ -1,0 +1,58 @@
+ion-card {
+    box-shadow: 5px 9px 15px 3px #e7e7e7;
+}
+
+ion-card img {
+    width: 80px;
+    height: 40px;
+    border-radius: 14px 14px 14px 14px;
+}
+
+.flagDetail {
+    padding: 10px 20px 0px 20px;
+}
+
+.currencyName h3 {
+    margin: 0px;
+    font-weight: 900;
+}
+
+.currencyName h6 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.iconRightArrow {
+    font-size: large;
+    position: absolute;
+    right: 0%;
+    top: 35%;
+    color: blue;
+}
+
+.rowInput {
+    padding: 0px 10px 20px 0px;
+}
+
+.rowInput ion-input {
+    font-size: 30px;
+}
+
+.currencySymbol h3 {
+    text-align: right;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    color: blue;
+}
+
+.currencySymbol {
+    padding-top: 10px;
+}
+
+.currencyValue ion-item {
+    margin-left: 10px;
+}
+
+.ion-activatable {
+    border-radius: 3px;
+}

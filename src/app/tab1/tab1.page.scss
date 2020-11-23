@@ -1,0 +1,31 @@
+ion-content {
+    --padding-end: 5%;
+    --padding-start: 5%;
+}
+
+.ion-activatable {
+    position: relative;
+    overflow: hidden;
+}
+
+.isEqual {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin: 16px;
+}
+
+.currencySwitch {
+    margin-top: 16px;
+    padding: 10px;
+}
+
+.currencySwitch ion-button {
+    background: rgb(240, 235, 235);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.fixedCurrency {
+    padding-top: 10px;
+}

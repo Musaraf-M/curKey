@@ -1,0 +1,36 @@
+<ion-toolbar>
+    <ion-row>
+        <ion-col size="1" class="backIcon" (click)="converterPage()">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="backIconWord" (click)="converterPage()">
+            <h6>CURRENCY CONVERTER</h6>
+        </ion-col>
+        <ion-col size="5"></ion-col>
+    </ion-row>
+</ion-toolbar>
+
+<ion-toolbar>
+    <h3 style="font-size: 20px;">Change currency</h3>
+</ion-toolbar>
+<ion-toolbar>
+    <div class="searchBox">
+        <ion-searchbar autocomplete="on" #search debounce="500" (ionChange)="_ionChange($event)"></ion-searchbar>
+    </div>
+</ion-toolbar>
+
+
+<ion-content>
+    <ion-list>
+        <ion-item (click)="mouseClick(item)" *ngFor="let item of searchedItem">
+            <ion-avatar slot="start">
+                <img src="../../assets/flag/{{item.key}}.svg">
+            </ion-avatar>
+            <ion-label>
+                <h3>{{item.key}}</h3>
+                <p>{{item.title}}</p>
+            </ion-label>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

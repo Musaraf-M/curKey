@@ -1,0 +1,24 @@
+<ion-toolbar>
+    <ion-title size="small" style="text-align: center; font-weight: 600;">
+        CURRENCY CONVERTER
+    </ion-title>
+</ion-toolbar>
+
+<ion-content [fullscreen]="true">
+    <app-explore-container class="fixedCurrency" [value]="0" [key]="currencyKey1" [name]="currencyName1" [symbol]="currencySymbol1"></app-explore-container>
+    <ion-row>
+        <ion-col size="3" class="ion-activatable">
+            <ion-card class="isEqual">
+                =
+                <ion-ripple-effect></ion-ripple-effect>
+            </ion-card>
+        </ion-col>
+        <ion-col size="1"></ion-col>
+        <ion-col class="currencySwitch">
+            <ion-button expand="block" fill="outline">
+                <ion-icon name="analytics-outline"></ion-icon> &nbsp; &nbsp;Switch currencies</ion-button>
+        </ion-col>
+    </ion-row>
+
+    <app-explore-container [value]="1" [key]="currencyKey2" [name]="currencyName2" [symbol]="currencySymbol2"></app-explore-container>
+</ion-content>

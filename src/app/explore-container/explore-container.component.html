@@ -1,0 +1,37 @@
+<ion-card>
+    <ion-row class="flagDetail">
+        <ion-col>
+            <img src="../../assets/flag/{{key}}.svg" alt="">
+        </ion-col>
+        <ion-col class="currencyName">
+            <h3>{{key}}</h3>
+            <h6>{{name}}</h6>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col>
+            <div class="ion-activatable">
+                <ion-list lines="none">
+                    <ion-item class="arrowIcon" (click)="searchCurrency()">
+
+                        <ion-icon class="iconRightArrow" name="chevron-forward-outline"></ion-icon>
+                        <ion-ripple-effect type="unbounded"></ion-ripple-effect>
+
+                    </ion-item>
+                </ion-list>
+            </div>
+        </ion-col>
+    </ion-row>
+
+    <ion-row class="rowInput">
+        <ion-col class="currencyValue">
+            <ion-item>
+                <ion-input placeholder="1.00" type="number"></ion-input>
+            </ion-item>
+        </ion-col>
+        <ion-col size="3" class="currencySymbol">
+            <h3>{{symbol}}</h3>
+        </ion-col>
+
+    </ion-row>
+
+</ion-card>

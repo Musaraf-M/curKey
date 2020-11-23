@@ -1,0 +1,31 @@
+.backIcon {
+    margin: 16px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    font-size: 14px;
+}
+
+.backIconWord {
+    padding: 0;
+}
+
+.backIcon ion-icon {
+    font-weight: 400;
+    color: rgb(0, 0, 126);
+}
+
+.backIconWord h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 126);
+}
+
+ion-toolbar h3 {
+    margin: 0px 10px 20px;
+}
+
+ion-avatar {
+    --border-radius: 5px;
+    height: 30px;
+    width: 40px;
+    box-shadow: 5px 9px 15px #d6d6d6;
+}
